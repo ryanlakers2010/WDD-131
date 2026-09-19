@@ -1,0 +1,86 @@
+/* Universal / Reset Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #ffffff;
+  color: #333333;
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Container Box */
+.content {
+  border: 1px solid #dcdcdc;
+  max-width: 650px;
+  width: 100%;
+  padding: 40px 50px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Header Section */
+.header {
+  text-align: center;
+  border-bottom: 2px solid #005596;
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+}
+
+.header h1 {
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+  color: #005596;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.header h2 {
+  font-size: 0.95rem;
+  letter-spacing: 3px;
+  color: #005596;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+/* Main Content */
+.main-content {
+  font-size: 1.05rem;
+}
+
+.intro {
+  margin-bottom: 20px;
+}
+
+.bullets-intro {
+  margin-bottom: 12px;
+}
+
+.mission-list {
+  padding-left: 25px;
+  margin-bottom: 30px;
+}
+
+.mission-list li {
+  margin-bottom: 12px;
+  padding-left: 5px;
+}
+
+/* Footer Section */
+.footer {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.logo {
+  max-width: 150px;
+  height: auto;
+}
